@@ -1,0 +1,13 @@
+/* Pretnedard 폰트를 위한 폰트 다운로드 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/pretendard/1.3.9/static/pretendard.min.css");
+
+/* Tailwind CSS 기본 설정*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 기본으로 Pretnedard 폰트 적용을 위한 css 처리*/
+* {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
